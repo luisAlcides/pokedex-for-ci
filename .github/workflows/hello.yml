@@ -5,9 +5,9 @@ on:
     branches:
       - main
 
-  jobs:
-    hello_world:
-      runs-on: ubuntu-latest
-      steps:
-        - name: Echo the message
-          run: echo "hola luis"
+jobs:
+  hello_world:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo the message
+        run: echo "hola luis"
